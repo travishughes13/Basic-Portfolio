@@ -166,6 +166,35 @@ header section */
 	color: #777777;
 }
 
+/* The following controls the form output on the Contact page */
+
+.form {
+	padding-left: 15px;
+	padding-bottom: 5px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.message {
+	text-align: top;
+}
+
+.button {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: large;
+	text-decoration: none;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100px;
+}
+
+/* These two control the location of the pictures and links in the
+content section of the Portfolio page */
+
 .portfolio-links {
 	float: left;
 	padding-left: 15px;
