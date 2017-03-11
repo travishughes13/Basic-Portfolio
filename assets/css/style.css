@@ -1,17 +1,40 @@
+/* This section outlines the basic properties of the body */
+
 .body {
 	margin: 0px;
 	display: block;
-	background-image: "assets/images/hexellence_@2X.png"
+	background-image: url('../../assets/images/escheresque_ste_@2X.png');
 }
 
+/* This section outlines the header box that goes across the entire 
+top of the page */
+
 .header {
-	background-color: white;
+	background-color: #ffffff;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
 	width: 100%;
 	height: 89px;
 	margin: 0px;
 }
+
+/*This controls the box that holds my name in the header */
+
+.name{
+	float: left;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 1px;
+	padding-top: 5px;
+	width: 25%;
+	color: white;
+	z-index: 3;
+	height: 50px;
+	margin-left: 75px;
+}
+
+/* This outlines the behavior of the heading tags */
 
 h1 {
 	float: left;
@@ -21,11 +44,47 @@ h1 {
 	margin-left: 22px;
 	margin-top: 33px;
 	padding: 15px;
-
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+h2 {
+	float: left;
+	background-color: white;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	margin-right: 15%;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	width: 95%;
+	margin-top: 15px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	top: 100px;
+	right: 130px;
+	margin-right: 7%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 17px;
+	padding-top: 5px;
+	margin-top: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 2px;
+	float: right;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* This tells the link anchors to behave a certain way */
 
 a {
 	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a:link {
@@ -35,6 +94,9 @@ a:link {
 a:visited {
 	color: #777777;
 }
+
+/* These link sections affect the behavior of the page links in the
+header section */
 
 .links {
 	float: right;
@@ -63,99 +125,24 @@ a:visited {
 	background-color: white;
 }
 
-img.profile-image {
-	width: 200px;
-	height: 200px;
-	float: left;
-	margin: 15px;
-}
+/* These different tags govern the behavior of the Content section*/
 
 .content {
-	width: 70%;
-}
-
-.aside {
-	float: right;
-	width: 30%;
-	margin-right: 70px;
-}
-
-.footer-box {
-	position: fixed;
-	margin: 0px;
-}
-
-
-
-.footer {
-  width: 100%;
-  background-color: #666666;
-  color: white;
-  border-top-width: 5px;
-  border-top-style: solid;
-  border-top-color: #4aaaa5;
-  height: 50px;
-  text-align: center;
-  padding-top: 15px;
-  z-index: 1;
-  bottom: 0px;
-}
-
-.connect {
-	float: right;
-	width: 15%;
-	margin-top: 150px;
-	margin-right: 25px;
-}
-
-.name{
+	width: 50%;
 	float: left;
-	background-color: #4aaaa5;
-	text-align: center;
-	padding: 1px;
-	padding-top: 5px;
-	width: 25%;
-	color: white;
-	z-index: 3;
-	height: 50px;
-	margin-left: 63px;
-}
-
-
-
-.text {
-	clear: right;
-
-}
-
-.box-c {
-	position: absolute;
-	width: 100px;
-	height: 75px;
+	margin-top: 15px;
+	margin-left: 70px;
+	padding-left: 15px;
+	padding-right: -5px;
+	border-width: 2px;
+	border-color: #dddddd;
+	border-style: solid;
 	background-color: white;
-	margin: 0px;
+	overflow: auto;
+	height: 600px;
 }
 
-.box-3 {
-	top: 150px;
-	left: 70px;
-	width: 20%;
-	height: 500px;
-	z-index: 1;
-	padding-top: 5px;
-	padding-left: 205px;
-	text-align: left;
-}
-
-.box-5 {
-	top: 129px;
-	left: 70px;
-	width: 20%;
-	height: 500px;
-	z-index: 1;
-	padding-top: 210px;
-	text-align: left;
-}
+/* These control the content on the About Me page */
 
 .box-d {
 	position: absolute;
@@ -165,33 +152,82 @@ img.profile-image {
 }
 
 .box-4 {
-	top: 150px;
+	top: 190px;
 	left: 70px;
 	z-index: 2;
 }
 
-h3 {
-	position: absolute;
-	top: 100px;
-	right: 130px;
+.text {
+	clear: right;
+	padding-left: 35%;
+	margin-top: 55px;
+	padding-right: 5%;
+	width: 60%
+	color: #777777;
+}
+
+.portfolio-links {
 	float: left;
-	margin-left: 650px;
-	margin-top: 50px;
-	color: #4aaaa5;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 205px;
 }
 
-
-
-.about-box {
-	position: absolute;
-	margin-left: 70px;
-	margin-right: 15%;
-	margin-top: 15px;
-	color: #4aaaa5;
-	z-index: 5;
+.text-links {
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 2;
+	position: relative;
+	top: -50px;
 }
 
-h2 {
+/*This section controls the right-handed link content*/
+
+.aside {
 	float: right;
+	width: 30%;
+	height: 200px;
+	margin-right: 70px;
+	margin-top: 15px;
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	background-color: white;
 }
 
+/* These blocks control the Connect With Me section on the right
+side of the main body */
+
+.connect {
+	padding: 5px;
+}
+
+.link-box {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20%;
+}
+
+/*These footer tags keep the copyright at the bottom of the page */
+
+.footer-box {
+	position: fixed;
+	margin: 0px;
+}
+
+.footer {
+  	width: 100%;
+  	background-color: #666666;
+  	color: white;
+  	border-top-width: 5px;
+  	border-top-style: solid;
+  	border-top-color: #4aaaa5;
+  	height: 50px;
+  	text-align: center;
+  	padding-top: 15px;
+  	z-index: 1;
+ 	bottom: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
