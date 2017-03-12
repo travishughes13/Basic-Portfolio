@@ -26,11 +26,11 @@ top of the page */
 	background-color: #4aaaa5;
 	text-align: center;
 	padding: 1px;
-	padding-top: 5px;
+	padding-top: 15px;
 	width: 25%;
 	color: white;
 	z-index: 3;
-	height: 50px;
+	height: 40px;
 	margin-left: 75px;
 }
 
@@ -44,6 +44,8 @@ h1 {
 	margin-left: 22px;
 	margin-top: 33px;
 	padding: 15px;
+	font-size: 30px;
+	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -59,6 +61,8 @@ h2 {
 	padding-bottom: 15px;
 	width: 95%;
 	margin-top: 15px;
+	font-size: 25px;
+	font-weight: bold;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -72,10 +76,12 @@ h3 {
 	padding-bottom: 17px;
 	padding-top: 5px;
 	margin-top: 15px;
+	font-size: 20px;
 	border-bottom-style: solid;
 	border-bottom-color: #dddddd;
 	border-bottom-width: 2px;
 	float: right;
+	font-weight: bold;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -159,8 +165,9 @@ header section */
 
 .text {
 	clear: right;
-	padding-left: 35%;
-	margin-top: 55px;
+	padding-left: 40%;
+	margin-right: 15px;
+	margin-top: 80px;
 	padding-right: 5%;
 	width: 60%
 	color: #777777;
@@ -207,7 +214,7 @@ content section of the Portfolio page */
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	z-index: 2;
+	z-index: 1;
 	position: relative;
 	top: -50px;
 }
@@ -240,6 +247,14 @@ side of the main body */
 }
 
 /*These footer tags keep the copyright at the bottom of the page */
+
+.content-wrapper:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 55px;
+	padding-top: 50px;
+}
 
 .footer-box {
 	position: fixed;
