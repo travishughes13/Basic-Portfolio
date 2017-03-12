@@ -93,6 +93,7 @@ h3 {
 
 a {
 	text-decoration: none;
+	font-size: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -168,7 +169,7 @@ header section */
 
 .text {
 	clear: right;
-	padding-left: 40%;
+	padding-left: 220px;
 	margin-right: 15px;
 	margin-top: 80px;
 	padding-right: 5%;
@@ -247,7 +248,7 @@ side of the main body */
 	float: right;
 	padding-top: 5px;
 	margin-top: 20px;
-	margin-right: 20%;
+	margin-right: 30px;
 }
 
 /*These footer tags keep the copyright at the bottom of the page */
