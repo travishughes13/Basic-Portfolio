@@ -32,6 +32,9 @@ top of the page */
 	z-index: 3;
 	height: 40px;
 	margin-left: 75px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* This outlines the behavior of the heading tags */
@@ -76,7 +79,7 @@ h3 {
 	padding-bottom: 17px;
 	padding-top: 5px;
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 18px;
 	border-bottom-style: solid;
 	border-bottom-color: #dddddd;
 	border-bottom-width: 2px;
